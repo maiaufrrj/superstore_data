@@ -1,5 +1,5 @@
 streamlit==0.89.0
-pandas==1.3.3
+pandas==0.25.3
 base58==2.0.0
 matplotlib==3.4.3
 numpy==1.18.1
