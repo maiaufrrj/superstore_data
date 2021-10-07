@@ -76,7 +76,7 @@ label_mercado = df.mercado.unique().tolist()
 label_segmento = df.segmento.unique().tolist()
 
 # SIDEBAR
-# Parâmetros e número de ocorrências
+# Parâmetros e número de registros
 st.sidebar.header("Parâmetros")
 info_sidebar = st.sidebar.empty()    # placeholder, para informações filtradas que só serão carregadas depois
  
@@ -115,13 +115,13 @@ df_filtrado = df[(df['data_pedido'].dt.year == year_to_filter) &
                  (df.segmento.isin(label_to_filter_segmento))]
  
 # Aqui o placehoder vazio finalmente é atualizado com dados do df_filtrado
-info_sidebar.info("{} ocorrências selecionadas.".format(df_filtrado.shape[0]))
+info_sidebar.info("{} registros selecionados.".format(df_filtrado.shape[0]))
 
 
 # MAIN
 st.title("Super Store")
 st.markdown(f"""
-            Estão sendo exibidas as ocorrências classificadas como **{", ".join(label_to_filter_mercado)}**
+            Estão sendo exibidas os registros classificados como **{", ".join(label_to_filter_mercado)}**
             para o ano de **{year_to_filter}**.
             """)
  
