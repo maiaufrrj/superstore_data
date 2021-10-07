@@ -119,7 +119,7 @@ info_sidebar.info("{} ocorrências selecionadas.".format(df_filtrado.shape[0]))
 
 
 # MAIN
-st.title("AliPaga")
+st.title("Super Store")
 st.markdown(f"""
             Estão sendo exibidas as ocorrências classificadas como **{", ".join(label_to_filter_mercado)}**
             para o ano de **{year_to_filter}**.
