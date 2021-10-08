@@ -2,7 +2,7 @@
 
   * Análise Exploratória de Dados e Previsão de Séries Temporais.
 
-  * Modelos utilizados: Facebook Prophet e Rede Neural LSTM
+  * Modelos utilizados: **Facebook Prophet** e Rede Neural **LSTM** 
 
   * dataset utilizado: https://www.kaggle.com/jr2ngb/superstore-data/
 
